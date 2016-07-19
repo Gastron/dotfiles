@@ -19,6 +19,10 @@ filetype off                  " required
 "call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Pathogen
+execute pathogen#infect()
+map <C-n> :NERDTreeToggle<CR>
+
 "Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
@@ -109,3 +113,12 @@ map k gk
 
 " Copy to system clipboard
 map <C-c> "+y<CR>
+
+" Easier splitting
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+set splitbelow
+set splitright
+
