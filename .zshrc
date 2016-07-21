@@ -22,7 +22,10 @@ zle -N down-line-or-beginning-search
 autoload -U promptinit && promptinit
 prompt pure
 
-
 #remember visited directories and move to them with cdr, list with cdr -l
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
 add-zsh-hook chpwd chpwd_recent_dirs
+
+#Vim mode:
+bindkey -v
+export KEYTIMEOUT=1
