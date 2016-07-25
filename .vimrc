@@ -82,6 +82,7 @@ set background=dark
 colorscheme base16-tomorrow-night
 set shiftwidth=4
 set tabstop=4
+set expandtab
 
 " Linebreak on 500 characters
 set lbr
