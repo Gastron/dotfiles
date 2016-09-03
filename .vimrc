@@ -77,9 +77,14 @@ set tm=500
 syntax enable
 
 " Colour
-" colorscheme desert
+
+set t_Co=256
 set background=dark
-colorscheme base16-tomorrow-night
+"colorscheme base16-tomorrow-night
+colorscheme desert
+
+
+"Important tabstuff
 set shiftwidth=4
 set tabstop=4
 set expandtab

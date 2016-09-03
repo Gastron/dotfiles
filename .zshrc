@@ -33,3 +33,6 @@ bindkey -r viins "^J" "^K" "^L"
 bindkey "^J" down-line-or-beginning-search
 bindkey "^K" up-line-or-beginning-search
 bindkey "^L" expand-or-complete
+
+#CTRL+space for accept line
+bindkey "^ " accept-line
