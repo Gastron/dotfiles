@@ -85,17 +85,23 @@ colorscheme desert
 
 
 "Important tabstuff
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
 set expandtab
 
-" Linebreak on 500 characters
+" Linebreak on 
 set lbr
-set tw=500
+"set tw=500 "auto break on 500 characters
 
-set ai "Auto indent
-set si "Smart indent
+" These are actually not recommended anymore:
+"set ai "Auto indent
+"set si "Smart indent
 set wrap "Wrap lines
+
+" set paste on, off quickly:
+set pastetoggle=<F3>
+
 
 
 """"""""""""""""""""""""""""""

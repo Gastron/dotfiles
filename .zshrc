@@ -34,5 +34,10 @@ bindkey "^J" down-line-or-beginning-search
 bindkey "^K" up-line-or-beginning-search
 bindkey "^L" expand-or-complete
 
+#Start of line, end of line:
+bindkey "^G" beginning-of-line
+bindkey "^B" end-of-line
+
 #CTRL+space for accept line
 bindkey "^ " accept-line
+
