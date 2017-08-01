@@ -134,3 +134,15 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
+
+" Vim airline:
+set laststatus=2
+let g:airline_powerline_fonts = 1
+let g:airline_theme = 'solarized'
+let g:airline#extensions#tabline#enabled = 1
+
+
+" Faster buffer switching:
+nnoremap <S-b> :ls<CR>:b<Space>
+nnoremap <S-h> :bp<CR>
+nnoremap <S-l> :bn<CR>
