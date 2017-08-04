@@ -41,3 +41,5 @@ bindkey "^B" end-of-line
 #CTRL+space for accept line
 bindkey "^ " accept-line
 
+#cd into dirs if you just type them, but importantly autocomplete the directories:
+setopt autocd
