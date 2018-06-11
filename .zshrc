@@ -43,3 +43,9 @@ bindkey "^ " accept-line
 
 #cd into dirs if you just type them, but importantly autocomplete the directories:
 setopt autocd
+
+#Edit cmdline in $EDITOR, set EDITOR to vim:
+export EDITOR=vim
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^V" edit-command-line 
