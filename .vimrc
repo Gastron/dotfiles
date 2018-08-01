@@ -21,7 +21,7 @@ filetype plugin indent on    " required
 
 " Pathogen
 execute pathogen#infect()
-map <C-n> :NERDTreeToggle<CR>
+" map <C-n> :NERDTreeToggle<CR> 
 
 "Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
@@ -146,3 +146,11 @@ let g:airline#extensions#tabline#enabled = 1
 nnoremap <S-b> :ls<CR>:b<Space>
 nnoremap <S-h> :bp<CR>
 nnoremap <S-l> :bn<CR>
+
+
+" Recursive finding
+set path+=**
+
+" Hybrid line number:
+set number
+set relativenumber
