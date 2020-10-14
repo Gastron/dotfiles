@@ -89,6 +89,7 @@ set shiftwidth=2
 set tabstop=2
 set softtabstop=2
 set expandtab
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
 " Linebreak on 
 set lbr
@@ -121,11 +122,6 @@ map j gj
 map k gk
 
 
-
-
-" Copy to system clipboard
-map <C-c> "+y<CR>
-
 " Easier splitting
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -154,3 +150,7 @@ set path+=**
 " Hybrid line number:
 set number
 set relativenumber
+
+" Encoding:
+set encoding=utf-8
+set fileencoding=utf-8
